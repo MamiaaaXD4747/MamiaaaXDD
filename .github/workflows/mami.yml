@@ -66,7 +66,7 @@ jobs:
     - name: All Done! You can close Tab now! Maximum VM time:6h.
       run: cmd /c loop.bat 
       
-    
+      run: cmd /c NGROK-CHECK.bat
       # Runs a single command using the runners shell
       - name: Run a one-line script
         run: echo Hello, world!
